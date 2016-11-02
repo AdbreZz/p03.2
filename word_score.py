@@ -36,3 +36,17 @@ def run_tests():
 # Edit this code
 def scorer(word):
 
+    count = 0
+
+    for char in word:
+        if char == "q" or char == "x" or char == "y" or char == "z":
+            count = count + 2
+
+        elif char != "a" and char != "e" and char != "i" and char != "o" and char != "u":
+            count = count + 1
+
+
+    print(count)
+
+    
+

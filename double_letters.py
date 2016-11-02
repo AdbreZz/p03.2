@@ -26,3 +26,11 @@ def run_tests():
 # Edit this code
 def doubler(word):
 
+    
+    old_word = ""
+
+    for char in word:
+        old_word = old_word + char + char
+
+    print(old_word)
+
